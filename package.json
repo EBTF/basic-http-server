@@ -1,0 +1,19 @@
+{
+  "name": "basic-http-server",
+  "version": "1.0.0",
+  "description": "Basic Example HTTP server for Polling App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "EBTF",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "nodemon": "^2.0.15",
+    "xml2json": "^0.12.0"
+  }
+}
