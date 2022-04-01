@@ -22,13 +22,10 @@ app.use((err, req, res, next) => {
 
 app.post("/xmldata/:ser_num/:date", (req, res) => {
     console.log("POST Request: /xmldata/" + req.params.ser_num + "/" + req.params.date);
-    console.log(req.body)
-
-    let xmldata = req.body
 
     res.status(200).send({
         success: true,
-        resss: req.body
+        xmltojson: req.body
     })
 })
 
