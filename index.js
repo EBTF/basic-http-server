@@ -1,12 +1,9 @@
 const express = require('express')
 const parser = require('xml2json')
-// const bodyParser = require('body-parser')
 const xmlparser = require('express-xml-bodyparser')
 const app = express()
 const port = 4000
 
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
 app.use(xmlparser())
 
 app.listen(port, () => {
