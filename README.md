@@ -1,6 +1,8 @@
 # basic-http-server
 Test ExpressJS Server to Convert XML to JSON
 
+Barebones ExpressJS server with minimal error handling, used for testing for a project
+
 ## Prerequisites
 - NodeJS v16.4.2
 - npm (included with Node)
